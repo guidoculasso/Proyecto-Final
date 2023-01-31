@@ -1,0 +1,56 @@
+body {
+    background-color: darkcyan;
+}
+
+.titulos{
+    font:bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tipo1{
+
+    border-radius: 80%;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 210px;
+    margin-top: 5px;
+}
+
+.a{
+    border: solid;
+    list-style-type: square;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+.b{
+    list-style-type: lower-roman;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.forma{
+
+    border: solid black;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.boton1{
+    
+    margin-left: -300px;
+    margin-right: 60px;
+    
+}
+
+.boton2{
+
+    display: none;
+    margin-left: -300px;
+    margin-right: 60px;
+}

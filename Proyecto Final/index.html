@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Css/estilos.css">
+    <style></style>
+    
+    <title>CV</title>
+</head>
+<body>
+
+    <h1 class="titulos"> Curriculum Vitae</h1>
+
+    <img class="tipo1" src="/Imagenes/germandelaserna.jpg" alt="Perfil">
+    <div class="forma">
+    <ul class="a">
+        <h3 class="titulos">Datos personales</h3>
+        <li id="lista1"><b>Nombre Completo:</b> Germán de la Serna</li>
+        <li id="lista2"><b>Fecha de nacimiento:</b> 09/04/1991</li>
+        <li id="lista3"><b>Dirección:</b> Acasias 38, Rafaela, Santa Fe</li>
+        <li id="lista4"><b>Telefono:</b> (3492)429550</li>
+        <li id="lista5"><b>E-mail:</b> germandelaserna@example.com</li>
+    </ul>
+        <button type="button" class="boton1" id="miboton" onclick="ocultarContenido">Haz click para ocultar el contenido</button>
+        
+        <button type="button" class="boton2" id="miboton2" onclick="mostrarContenido">Haz click para mostrar el contenido</button>
+        
+        <!-- Cree 2 botones, uno visible y el otro no.
+            esto lo hice porque al darle al primer boton una funcion
+            donde el hacer click deberia se algo infito, en el tercer clik dejaba de funcionar.
+            al no resolver el problema. Pensé en una solucion, creando un segundo boton. ver en cv.js-->
+
+    <ol class="b">
+        <h3 class="titulos">Estudios:</h3>
+        <li><b>Escuela Primaria:</b> Escuela n° 480 "Mariano Moreno", Rafaela.</li>
+        <li><b>Escuela secundaria:</b> Escuela de Educación Técnica n° 460 "Guillermo Lehmann", Rafaela.</li>
+        <li><b>Universidad:</b> Licenciatura en Criminologia y Seguridad, Universidad Siglo 21.</li>
+        <p>Otros estudios</p>
+        <li><b>Idioma Extranjero:</b> Ingles, nivel III, Gabinete de idiomas, UTN, FRRA.</li>
+        <li><b>Diplomado:</b> Diplomatura en Ciberseguridad, Euroinnova Internacional Online Education.</li>
+    </ol>
+    </div>
+    <script src="/JS/cv.js"></script>
+</body>
+</html>
